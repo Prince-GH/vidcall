@@ -76,11 +76,12 @@ let toggleMic = async (e) =>{
     if(localTracks[0].muted){
         await localTracks[0].setMuted(false)
         e.target.innerHTML = 'Mic On'
-        e.target.style.backgroundColor = "green"
+        e.target.style.backgroundColor = "linear-gradient(25deg,rgb(12, 143, 125),rgb(16, 112, 99))"
+        e.target.style.border = "none";
     }else{
         await localTracks[0].setMuted(true)
         e.target.innerHTML = 'Mic off'
-        e.target.style.backgroundColor = "red"
+        e.target.style.border = "1px solid red"
     }
 }
 
@@ -88,12 +89,13 @@ let toggleCamera = async (e) =>{
     if(localTracks[1].muted){
         await localTracks[1].setMuted(false)
         e.target.innerHTML = 'Camera on'
-        e.target.style.backgroundColor = 'green'
+        e.target.style.backgroundColor = 'linear-gradient(25deg,rgb(12, 143, 125),rgb(16, 112, 99))'
+        e.target.style.border = "none";
     }else{
         await localTracks[1].setMuted(true)
         e.target.innerHTML = 'Camera off'
-        e.target.style.backgroundColor = 'red'
-    }
+        e.target.style.border = "1px solid red"
+        }
 }
 
 
