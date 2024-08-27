@@ -20,7 +20,7 @@ body {
 footer{
     background:#034b47;
     height:5vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +46,73 @@ footer{
             width: 600px;
         }
   
+}
+
+.option{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,20rem); /* 2 columns */
+    grid-template-rows:repeat(2,15rem); /* 2 rows, auto height based on content */
+    gap: 20px;
+   
+    justify-content: center; /* Center the grid items horizontally */
+    align-items: center; /* Align grid items to the top */
+    & .card{
+        width:20rem;
+        height: 15rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        border-radius: 15px;
+        background: linear-gradient(123deg, #605aa2,#7458ac,#8954b1,#a04fb2,#ee71a1,#ec82db,#9923a8);
+
+        & .icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            border-radius: 50%;
+            background: white;          
+        }
+
+        & .about{
+            width: 250px;
+            font-size: 20px;
+            text-align: center; 
+            color:rgb(252, 252, 252);
+            /* border: 2px solid black; */
+        }
+
+    }
+
+    .card:hover{
+        .icon{
+            display:none;
+        }
+    }
+
+    .Football:hover{
+        background-image:url(/icons/football.jpg);
+        background-size: cover;
+    }
+    .AiML:hover{
+        background-image: url(/icons/Ai.jpg);
+        background-size: cover;
+    }
+    .English:hover{
+        background-image: url(/icons/English.jpg);
+        background-size: cover;
+    }
+    .Coding:hover{
+        background-image: url(/icons/coding2.jpg);
+        background-size: cover;
+    }
+
 }
 
 .c {
@@ -99,16 +166,21 @@ footer{
     font-family: "Montserrat", sans-serif;
 }
 
-#join-btn{
+.join-btn{
     width: 250px;
     height: 50px;
     font-size: 25px;
     font-family: "Montserrat", sans-serif;
-    position: absolute;
-    top: 75vh;
-    left: 18vw;
+    background:linear-gradient(125deg,#5c58d4,#5f5ae6),#282569;
+    
 }
 
+.join-btn:hover{
+    
+    border: 1px solid white;
+    transform:translateY(-1px);
+    box-shadow: 0px 2px 200px 6px rgb(181, 235, 236);
+}
 button {
     width: 90px;
     height: 40px;
@@ -151,7 +223,7 @@ button:hover {
     button {
         width: 60px;
         height: 30px;
-        font-size: 12px;
+        font-size: 12px;    
     }
     .logo{
         grid-template-columns: repeat(1,1fr);
@@ -164,9 +236,6 @@ button:hover {
         }
         & img{
             width: 500px;
-        }
-        
-        
+        }        
     }
-
 }
