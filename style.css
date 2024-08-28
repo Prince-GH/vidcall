@@ -97,19 +97,19 @@ footer{
     }
 
     .Football:hover{
-        background-image:url(/icons/football.jpg);
+        background-image:url(icons/football.jpg);
         background-size: cover;
     }
     .AiML:hover{
-        background-image: url(/icons/Ai.jpg);
+        background-image: url(icons/Ai.jpg);
         background-size: cover;
     }
     .English:hover{
-        background-image: url(/icons/English.jpg);
+        background-image: url(icons/English.jpg);
         background-size: cover;
     }
     .Coding:hover{
-        background-image: url(/icons/coding2.jpg);
+        background-image: url(icons/coding2.jpg);
         background-size: cover;
     }
 
