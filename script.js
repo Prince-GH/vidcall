@@ -3,7 +3,7 @@ const option = document.querySelector('.option');
 
 document.getElementById('join-btn-aiml').addEventListener('click', function() {
 const APP_ID = "4b955d6488cc40e19d02c5bd79d55191";
-const TOKEN = "007eJxTYJhdLTBX+vH5yOUiH88X/nLIjD9d+O5E+Rz3+0e2zLJSa96vwGCSZGlqmmJmYmGRnGxikGpomWJglGyalGJumWJqamhp+FTwXFpDICMDy5ZpjIwMEAjmMyRm5uYwMAAA5qAhLA==";
+const TOKEN = "007eJxTYLBba/eXKblJycNrxQ5enpTffz8/3bTjbcbC3c1/vq0SSStSYDBJsjQ1TTEzsbBITjYxSDW0TDEwSjZNSjG3TDE1NbQ0TGrUSm8IZGS4+ZCHmZEBAkF8FobEzNwcBgYAvqAgzg==";
 const CHANNEL = "aiml";  // Fixed typo
 
 const client = AgoraRTC.createClient({ mode: 'rtc', codec: 'vp8' });
@@ -116,7 +116,7 @@ document.getElementById('camera-btn').addEventListener('click',toggleCamera)
 
 document.getElementById('join-btn-football').addEventListener('click', function() {
     const APP_ID = "42fdb39061b24131aed42a7549be9064";
-    const TOKEN = "007eJxTYGA1uKd+S8Hm4uVH948fUGn/e8c2d2HwfetlU5OZEnf29n9SYDAxSktJMrY0MDNMMjIxNDZMTE0xMUo0NzWxTEoFiprMFDuX1hDIyJDEncPKyACBID4HQ1p+fklSYk4OAwMAOqMhuw==";
+    const TOKEN = "007eJxTYJjWcEEjpLPc29WhhH3J4b0bmBV2rmFZ/Um7Prx1XTHzGiUFBhOjtJQkY0sDM8MkIxNDY8PE1BQTo0RzUxPLpFSgqMmlRq30hkBGhtvmm1kZGSAQxOdgSMvPL0lKzMlhYAAAR2Yfag==";
     const CHANNEL = "football";  // Fixed typo
     
     const client = AgoraRTC.createClient({ mode: 'rtc', codec: 'vp8' });
@@ -228,8 +228,8 @@ document.getElementById('join-btn-football').addEventListener('click', function(
 
 
 document.getElementById('join-btn-coding').addEventListener('click', function() {
-    const APP_ID = "4b955d6488cc40e19d02c5bd79d55191";
-const TOKEN = "007eJxTYNjyqdbip1fDdB+22ew909g8pnxaHakUpKUx3/SD7dynq14oMJgkWZqappiZWFgkJ5sYpBpaphgYJZsmpZhbppiaGloa+gqdS2sIZGSoPLuQgREKQXw2huT8lMy8dAYGAGxbH8g=";
+    const APP_ID = "9a2d808bb3e04197a3c8575731eff411";
+const TOKEN = "007eJxTYDj9qn6m/7oT0u0PCtssb6TYmR2aZOba5fjMQTvHWGPLRGkFBmPz1JQ0c2NjYzPLFBPjRNPEFFOjVAtT8zTDtMRUQ8vk/y1a6Q2BjAyJVQYMjFAI4rMxJOenZOalMzAAAHskH4Y=";
 const CHANNEL = "coding";  // Fixed typo
 
 const client = AgoraRTC.createClient({ mode: 'rtc', codec: 'vp8' });
@@ -341,8 +341,8 @@ document.getElementById('camera-btn').addEventListener('click',toggleCamera)
 
 
 document.getElementById('join-btn-english').addEventListener('click', function() {
-    const APP_ID = "4b955d6488cc40e19d02c5bd79d55191";
-const TOKEN = "007eJxTYDgcKHbWdVdhF9PE9MOLjws8Ol0QG64t+02d8YzECi3v82cUGEySLE1NU8xMLCySk00MUg0tUwyMkk2TUswtU0xNDS0NJYXOpTUEMjJMYs1gZmSAQBCfnSE1Lz0nsziDgQEATAQeow==";
+    const APP_ID = "64a71989a2cc48c080083c428f207b04";
+const TOKEN = "007eJxTYPj5WeOYLMtZptnFxrX1q8sN9i85+9MyxcXUwSRM4/XipzUKDMZGiYamRgamaUmGqSYmpqZJZsnmFskpliaGyQbGiYaGJ1q10hsCGRn8TwSwMjJAIIjPzpCal56TWZzBwAAAh+4f6A==";
 const CHANNEL = "english";  // Fixed typo
 
 const client = AgoraRTC.createClient({ mode: 'rtc', codec: 'vp8' });
